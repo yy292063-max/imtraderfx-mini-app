@@ -55,12 +55,11 @@ return <main className="container">
 <h2>Community</h2>
 <button
   onClick={() => {
-    window.location.href = "t.me/IMTRADERFX_GlobalForexPlatfo";
+    window.location.href = "https://t.me/IMTRADERFX_GlobalForexPlatfo";
   }}
 >
   JOIN COMMUNITY
 </button>
-<button>JOIN TELEGRAM</button>
 </div>
 
 </main>
