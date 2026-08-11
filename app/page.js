@@ -33,7 +33,13 @@ return <main className="container">
 <h2>Trader Portal</h2>
 <p>Welcome, {user}</p>
 <p>Professional trading resources for disciplined traders.</p>
-<button>START EVALUATION</button>
+<button
+  onClick={() => {
+    window.location.href = "https://imtraderfx-global.mystrikingly.com";
+  }}
+>
+  START EVALUATION
+</button>
 </div>
 
 <div className="card">
@@ -47,7 +53,13 @@ return <main className="container">
 
 <div className="card">
 <h2>Community</h2>
-<p>Join IMTraderFX trader community.</p>
+<button
+  onClick={() => {
+    window.location.href = "t.me/IMTRADERFX_GlobalForexPlatfo";
+  }}
+>
+  JOIN COMMUNITY
+</button>
 <button>JOIN TELEGRAM</button>
 </div>
 
