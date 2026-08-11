@@ -1,15 +1,16 @@
-
-export default function Home(){
+export default function Home() {
   return (
-    <div style={{
-      background:"#050b18",
-      color:"white",
-      minHeight:"100vh",
-      padding:"50px"
-    }}>
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#111827",
+        color: "white",
+        padding: "40px",
+      }}
+    >
       <h1>IMTraderFX</h1>
       <h2>Mini App Test</h2>
       <p>Deployment Successful</p>
-    </div>
-  )
+    </main>
+  );
 }
